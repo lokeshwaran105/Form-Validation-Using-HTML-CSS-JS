@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 20px;
+}
+
+form button{
+    position: relative;
+    left: 70px;
+    width: 250px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    background-color: rgb(100, 158, 13);
+    border-radius: 5px;
+    border-style: none;
+    font-size: 15px;
+    color: white;
+}
+
+.form h1{
+    margin: 10px 0;
+}
+
+.form{
+    background-color: white;
+    height: 400px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px ;
+}
+
+form label {
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    margin: 20px 5px;
+    font-weight: 500;
+}
+
+form label input, form label textarea{
+    width: 200px;
+    height: 15px;
+    float: right;
+    padding: 5px;
+}
+
+form label textarea{
+    height: 25px;
+}
